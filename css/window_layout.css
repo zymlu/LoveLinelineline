@@ -1,0 +1,103 @@
+﻿@charset "UTF-8";
+/* Sass Document */
+
+.window_layout {
+  margin: 10px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #e8e7e1;
+-webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.55);
+-moz-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.55);
+box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.55);
+}
+
+.window_layout h3 {
+  padding: 0 0 5px;
+  line-height: 1.6;
+  font-size: 20px;
+  text-align: center;
+}
+
+.window_layout .cont {
+  margin: 0 auto;
+  padding: 10px 10px;
+  background-color: #FFF;
+  /*-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+    
+    -webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.25);
+
+-moz-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.25);
+
+box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.25);*/
+}
+
+.window_layout .cont .btn_layout {
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+.window_layout .cont .btn_layout .btn,
+.window_layout .cont .Upload_layout .btn {
+  margin: 0 0 6px 6px;
+  padding: 4px 16px;
+  -moz-user-select: none;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#777777+0,484848+50,020101+51,000000+100 */
+  background: #777777;
+  background: -moz-linear-gradient(top, #777777 0%, #484848 50%, #020101 51%, black 100%);
+  background: -webkit-linear-gradient(top, #777777 0%, #484848 50%, #020101 51%, black 100%);
+  background: linear-gradient(to bottom, #777777 0%, #484848 50%, #020101 51%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#000000',GradientType=0 );
+  border: 1px solid transparent;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.window_layout .cont .btn_layout .btn:hover {
+  opacity: 0.5;
+}
+
+.ui-widget-header {
+     border: 0; 
+     background: url("");
+	 text-align:center;
+   
+}
+
+.ui-dialog .ui-dialog-content {
+   padding: .1em .1em;
+}
+.cont div{
+	margin-bottom:.5em;
+}
+.ui-dialog .ui-dialog-title {
+    line-height: 1.1em;
+}
+.window_layout h3 {
+   
+    color: black;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	margin: -15px 0 0 0;
+	width: 30px;
+	height: 30px;
+	/*background-image: url("Images/c.png");*/
+}
+
+.window_layout .cont .Upload_layout {
+  line-height: 3;
+}
+
+
